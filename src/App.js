@@ -5,6 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./components/Home/HomeMain";
 import Error from "./pages/Error";
 import Login from "./components/Login/Login";
+import Register from "./components/Register/Register"
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/Register" component={Register} />
         <Route component={Error} />
       </Switch>
     </>
