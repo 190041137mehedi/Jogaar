@@ -3,7 +3,7 @@ import Slider from "./Slider"
 import "./homeMain.css"
 import Footer from "../Footer/Footer";
 
-
+import Login from "../Login/Login";
 // import "./Home.css";
 import jafor from "../Images/jafor.png";
 import abdullah from "../Images/abdullah.jpg"
@@ -18,8 +18,6 @@ const Home = ({ imageSrc }) => {
   return (
     <div className='home'>
       <Slider />
-
-
 
       <h1 className='title'>Success Stories</h1>
 
@@ -118,8 +116,6 @@ const Home = ({ imageSrc }) => {
 
           </div>
 
-
-
           <div className='abdullah'>
             <img className='abdullah' src={retro} alt="" />
           </div>
@@ -149,7 +145,6 @@ const Home = ({ imageSrc }) => {
             </div></div>
         </div>
 
-
       </div>
 
       <br /><br /><br />
@@ -164,11 +159,8 @@ const Home = ({ imageSrc }) => {
 
             <p className='faq-1'>How does it work?</p>
             <p className='faq-1'>How can you contribute?</p>
-
           </div>
-
           <a className='faq-font' href="/faq">Learn more about FAQs</a>
-
 
         </div>
       </div>
@@ -176,15 +168,13 @@ const Home = ({ imageSrc }) => {
 
       <div>
         <h1 classname='question'>Still Not Convinced? See for yourself
-          <a href="../"><button className='question'>Get Started</button></a>
+          <a href="/login"><button className='question'>Get Started</button></a>
         </h1>
       </div>
 
       <Footer />
 
     </div>
-
-
 
 
   )

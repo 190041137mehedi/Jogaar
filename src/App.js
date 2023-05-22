@@ -3,22 +3,11 @@ import Navbar from "./components/Navigation/Navbar";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Route, Switch } from "react-router-dom";
 import Home from "./components/Home/HomeMain";
-import Destinations from "./components/Destination/Destinations";
-import Tours from "./components/Tour/Tours";
-import Hotels from "./components/Hotel/Hotels";
-import Blog from "./components/Blog/Blog";
 import Cart from "./components/Miscellaneous/Cart";
 import Error from "./pages/Error";
 import StMartin from "./components/Destination/StMartin";
 import { UseSomeState } from "./UseSomeState";
-import Write from "./components/Blog/write/Write";
-import { UseLikedPost } from "./UseLikedPost";
-import Description from "./components/Tour/Description";
-import Tourdetails from "./components/Tour/Tourdetails";
-import Tourimage from "./components/Tour/Tourimage";
 import Dashboard from "./components/Profile/Dashboard"
-import List from "./components/Hotel/list/List";
-import Hoteldescription from "./components/Hotel/Hoteldescription";
 
 const App = () => {
   const { posts, setPosts } = UseSomeState()
