@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import Register_input from './Register_input'
 import './register.css'
+import Footer from '../Footer/Footer'
 //import {useNavigate} from 'react-router-dom'
 
 const Register = () => {
@@ -96,10 +97,6 @@ const Register = () => {
     }
 
 
-
-
-
-
   }
 
 
@@ -137,8 +134,10 @@ const Register = () => {
         <br />
         <p className='choice'>Already have an account? <a className="login" href="/login">Log In</a></p>
       </form>
+      <Footer />
     </div>
   )
 }
+
 
 export default Register

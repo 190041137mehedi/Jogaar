@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { useRef } from 'react'
 import Register_input from './Register_input'
 import './register.css'
+import Footer from '../Footer/Footer'
 // import Admin from "../Admin/Admin";
 
 
@@ -129,6 +130,7 @@ const Login = () => {
         <br />
         <p className='choice'>New to Jogaar? <a className="login" href="/register">Get Started</a></p>
       </form>
+      <Footer />
     </div>
   )
 }
