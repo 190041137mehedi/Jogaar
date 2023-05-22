@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useRef } from 'react'
 import Register_input from './Register_input'
 import './register.css'
-import Admin from "../Admin/Admin";
+// import Admin from "../Admin/Admin";
 
 
 const Login = () => {
